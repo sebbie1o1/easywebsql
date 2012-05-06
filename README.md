@@ -1,12 +1,12 @@
 EasyWebSql
 ==========
 
-1. Description
+- Description
 
 Very simple WebSql Wrapper
 
 
-2. HowTo
+- HowTo
 
 var db_params = {
   name: 'your db name',
@@ -17,7 +17,7 @@ var db_params = {
 
 var db = EasyWebSql(db_params);
 
-* methods:
+methods:
 
 - db.drop_table(table, callback) // table - table name
 - db.count(table, callback) // table - table name
